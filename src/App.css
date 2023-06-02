@@ -1,0 +1,43 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.show-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.show-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.show-image {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.show-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.show-genres {
+  font-size: 14px;
+  color: #888;
+}
